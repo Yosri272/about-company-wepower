@@ -1,0 +1,19 @@
+/* In your CSS file */
+
+
+/* For English */
+
+[dir="ltr"] .testimonials-carousel {
+    /* Set properties for left-to-right direction */
+    /* For example, adjust margin */
+    margin-left: 0;
+}
+
+
+/* For Arabic */
+
+[dir="rtl"] .testimonials-carousel {
+    /* Set properties for right-to-left direction */
+    /* For example, adjust margin */
+    margin-right: 0;
+}
