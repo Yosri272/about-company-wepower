@@ -38,12 +38,12 @@
         <div class="container d-flex justify-content-between align-items-center">
 
             <div class="logo">
-                <h1 class="text-light"><a href="index.html"><span>WEPower</span></a></h1>
+                <h1 class="text-light"><a href="{{ route('home') }}"><span>WEPower</span></a></h1>
             </div>
 
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="" href="index.html">{{ __('messages.home') }}</a></li>
+                    <li><a class="" href="{{ route('home') }}">{{ __('messages.home') }}</a></li>
                     <li><a href="about.html">{{ __('messages.about_us') }}</a></li>
                     <li><a href="services.html">{{ __('messages.services') }}</a></li>
                     <li><a class="active" href="portfolio.html">{{ __('messages.portfolio') }}</a></li>
@@ -76,7 +76,7 @@
                 <div class="d-flex justify-content-between align-items-center">
                     <h2>{{ __('messages.portfolio_details') }}</h2>
                     <ol>
-                        <li><a href="index.html">{{ __('messages.home') }}</a></li>
+                        <li><a href="{{ route('home') }}">{{ __('messages.home') }}</a></li>
                         <li>{{ __('messages.portfolio_details') }}</li>
                     </ol>
                 </div>

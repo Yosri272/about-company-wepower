@@ -27,7 +27,7 @@ body:dir(rtl) {
 }
 
 a {
-    color: #4fa6d5;
+    color: #50d8af;
     text-decoration: none;
 }
 
@@ -1504,11 +1504,11 @@ section {
     height: 12px;
     background-color: #fff;
     opacity: 1;
-    border: 1px solid #68A4C4;
+    border: 1px solid #50d8af;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-    background-color: #68A4C4;
+    background-color: #50d8af;
 }
 
 .portfolio-details .portfolio-info {
