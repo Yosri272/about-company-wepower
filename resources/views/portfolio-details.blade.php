@@ -8,7 +8,7 @@
     <title>{{ __('messages.portfolio_details') }} - WEPower Bootstrap Template</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -117,20 +117,14 @@
                             <ul>
                                 <li><strong>{{ __('messages.category') }}</strong>: {{ __('messages.web_design') }}
                                 </li>
-                                <li><strong>{{ __('messages.client') }}</strong>: ASU Company</li>
-                                <li><strong>{{ __('messages.project_date') }}</strong>: 01 March, 2020</li>
-                                <li><strong>{{ __('messages.project_url') }}</strong>: <a
-                                        href="#">www.example.com</a></li>
+                                <li><strong>{{ __('messages.client') }} :</strong>{{ __('messages.Company') }}</li>
+                                <li><strong>{{ __('messages.project_date') }} :</strong>{{ __('messages.date') }}</li>
+                                <li><strong>{{ __('messages.project_url') }} :</strong><a href="#">{{ __('messages.url') }}</a></li>
                             </ul>
                         </div>
                         <div class="portfolio-description">
                             <h2>{{ __('messages.example_of_portfolio_detail') }}</h2>
-                            <p>
-                                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi
-                                labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque
-                                itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur
-                                dignissimos. Sequi nulla at esse enim cum deserunt eius.
-                            </p>
+                            <p>{{ __('messages.example_paragraph') }}</p>
                         </div>
                     </div>
 
@@ -139,48 +133,47 @@
             </div>
         </section><!-- End Portfolio Details Section -->
         <!-- ======= Why Us Section ======= -->
-        <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">
-            <div class="container">
+        <section class="why-us section-bg" data-aos="fade-up" data-aos-delay="200">
+          <div class="container">
 
-                <div class="row">
-                    <div class="col-lg-6 video-box">
-                        <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
-                        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4"
-                            data-vbtype="video" data-autoplay="true"></a>
-                    </div>
+              <div class="row">
+                  <div class="col-lg-6 video-box">
+                      <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
+                      <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4"
+                          data-vbtype="video" data-autoplay="true"></a>
+                  </div>
 
-                    <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
+                  <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
 
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias
-                                excepturi sint occaecati cupiditate non provident</p>
-                        </div>
+                      <div class="icon-box">
+                          <div class="icon"><i class="bx bx-fingerprint"></i></div>
+                          <h4 class="title"><a href="">{{ __('messages.lorem_ipsum') }}</a></h4>
+                          <p class="description">{{ __('messages.lorem_ipsum_description') }}</p>
+                      </div>
 
-                        <div class="icon-box">
-                            <div class="icon"><i class="bx bx-gift"></i></div>
-                            <h4 class="title"><a href="">Nemo Enim</a></h4>
-                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                                blanditiis praesentium voluptatum deleniti atque</p>
-                        </div>
+                      <div class="icon-box">
+                          <div class="icon"><i class="bx bx-gift"></i></div>
+                          <h4 class="title"><a href="">{{ __('messages.nemo_enim') }}</a></h4>
+                          <p class="description">{{ __('messages.nemo_enim_description') }}</p>
+                      </div>
 
-                    </div>
-                </div>
+                  </div>
+              </div>
 
-            </div>
-        </section>
+          </div>
+      </section>
+
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>WEPower</span></strong>.
-                {{ __('messages.all_rights_reserved') }}
+                &copy; Copyright <strong><span>WEPower</span></strong>
+               all_rights_reserved
             </div>
             <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                Designed by <a href="https://WEPower.com/">WEPower</a>
             </div>
         </div>
     </footer><!-- End Footer -->

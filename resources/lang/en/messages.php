@@ -141,4 +141,23 @@ return [
     'team' => 'Team',
     'blog' => 'Blog',
     'contact_us' => 'Contact Us',
+
+    'project_information' => 'Project Information',
+    'category' => 'Category',
+    'web_design' => 'Web Design',
+    'client' => 'Client',
+    'project_date' => 'Project Date',
+    'project_url' => 'Project URL',
+    'example_of_portfolio_detail' => 'Example of Portfolio Detail',
+    'example_paragraph' => 'Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.',
+    'date' => '1 may 2020',
+    'Company' =>'Ruaad almashaeir',
+    'url' => 'WEPower.com',
+
+
+    'why_us' => 'Why Us',
+    'lorem_ipsum' => 'Lorem Ipsum',
+    'lorem_ipsum_description' => 'Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.',
+    'nemo_enim' => 'Nemo Enim',
+    'nemo_enim_description' => 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque.',
 ];
