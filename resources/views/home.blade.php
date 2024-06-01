@@ -164,14 +164,14 @@
                     <div class="col-lg-6">
                         <div class="box wow fadeInLeft">
                             <div class="icon"><i class="fa fa-laptop"></i></div>
-                            <h4 class="title"><a href="">{{ __('messages.service_1_title') }}</a></h4>
+                            <h4 class="title"><a href="{{ route('services') }}">{{ __('messages.service_1_title') }}</a></h4>
                             <p class="description">{{ __('messages.service_1_description') }}</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="box wow fadeInRight">
                             <div class="icon"><i class="fa fa-cloud"></i></div>
-                            <h4 class="title"><a href="">{{ __('messages.dolor_sitema_title') }}</a></h4>
+                            <h4 class="title"><a href="{{ route('services') }}">{{ __('messages.dolor_sitema_title') }}</a></h4>
                             <p class="description">{{ __('messages.dolor_sitema_description') }}</p>
                         </div>
                     </div>
@@ -179,7 +179,7 @@
                     <div class="col-lg-6">
                         <div class="box wow fadeInLeft" data-wow-delay="0.2s">
                             <div class="icon"><i class="fa fa-database"></i></div>
-                            <h4 class="title"><a href="">{{ __('messages.sed_ut_perspiciatis_title') }}</a>
+                            <h4 class="title"><a href="{{ route('services') }}">{{ __('messages.sed_ut_perspiciatis_title') }}</a>
                             </h4>
                             <p class="description">{{ __('messages.sed_ut_perspiciatis_description') }}</p>
                         </div>
@@ -188,7 +188,7 @@
                     <div class="col-lg-6">
                         <div class="box wow fadeInRight" data-wow-delay="0.2s">
                             <div class="icon"><i class="fa fa-link"></i></div>
-                            <h4 class="title"><a href="">{{ __('messages.magni_dolores_title') }}</a></h4>
+                            <h4 class="title"><a href="{{ route('services') }}">{{ __('messages.magni_dolores_title') }}</a></h4>
                             <p class="description">{{ __('messages.magni_dolores_description') }}</p>
                         </div>
                     </div>
@@ -365,20 +365,20 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
+                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
                         <div class="portfolio-item">
                             <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
-                                <h3>{{ __('messages.Card') }}</h3>
+                                <h3>{{ __('messages.Web') }}</h3>
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><iclass="bx bx-link"></iclass=></a>
+                                        class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
+                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                     <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
                         <div class="portfolio-item">
                             <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">

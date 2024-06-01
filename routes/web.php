@@ -35,3 +35,7 @@ Route::get('/portfolio-details', function () {
 Route::get('home', function () {
     return view('home');
 })->name('home');
+
+Route::get('services', function () {
+    return view('services');
+})->name('services');

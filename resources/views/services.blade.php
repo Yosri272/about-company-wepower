@@ -87,104 +87,163 @@
         </div>
     </header>
   <main id="main">
-        <!-- ======= Our Portfolio Section ======= -->
-        <section class="breadcrumbs">
-            <div class="container">
 
-                <div class="d-flex justify-content-between align-items-center">
-                    <ol>
-                        <li><a href="{{ route('home') }}">{{ __('messages.home') }}</a></li>
-                        <li>{{ __('messages.portfolio_details') }}</li>
-                    </ol>
-                    <h2>{{ __('messages.portfolio_details') }}</h2>
+ <!-- ======= Our Services Section ======= -->
+<section class="breadcrumbs">
+    <div class="container">
 
-                </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <ol>
+                <li><a href="{{ route('home') }}">{{ __('messages.home') }}</a></li>
+                <li>{{ __('messages.our_services') }}</li>
+            </ol>
+            <h2>{{ __('messages.our_services') }}</h2>
 
-            </div>
-        </section><!-- End Our Portfolio Section -->
+        </div>
 
-        <!-- ======= Portfolio Details Section ======= -->
-        <section id="portfolio-details" class="portfolio-details">
-            <div class="container">
+    </div>
+</section>
+<!-- End Our Services Section -->
 
-                <div class="row gy-4">
-
-                    <div class="col-lg-8">
-                        <div class="portfolio-details-slider swiper">
-                            <div class="swiper-wrapper align-items-center">
-
-                                <div class="swiper-slide">
-                                    <img src="assets/img/portfolio/portfolio-1.jpg" alt="">
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <img src="assets/img/portfolio/portfolio-2.jpg" alt="">
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <img src="assets/img/portfolio/portfolio-3.jpg" alt="">
-                                </div>
-
-                            </div>
-                            <div class="swiper-pagination"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <div class="portfolio-info">
-                            <h3>{{ __('messages.project_information') }}</h3>
-                            <ul>
-                                <li><strong>{{ __('messages.category') }}</strong>: {{ __('messages.web_design') }}
-                                </li>
-                                <li><strong>{{ __('messages.client') }} :</strong>{{ __('messages.Company') }}</li>
-                                <li><strong>{{ __('messages.project_date') }} :</strong>{{ __('messages.date') }}</li>
-                                <li><strong>{{ __('messages.project_url') }} :</strong><a href="#">{{ __('messages.url') }}</a></li>
-                            </ul>
-                        </div>
-                        <div class="portfolio-description">
-                            <h2>{{ __('messages.example_of_portfolio_detail') }}</h2>
-                            <p>{{ __('messages.example_paragraph') }}</p>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Portfolio Details Section -->
-        <br>
-        <!-- ======= Why Us Section ======= -->
-        <section class="why-us section-bg" data-aos="fade-up" data-aos-delay="200">
-          <div class="container">
-
-              <div class="row">
-                  <div class="col-lg-6 video-box">
-                      <img src="assets/img/why-us.jpg" class="img-fluid" alt="">
-                      <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4"
-                          data-vbtype="video" data-autoplay="true"></a>
-                  </div>
-
-                  <div class="col-lg-6 d-flex flex-column justify-content-center p-5">
-
-                      <div class="icon-box">
-                          <div class="icon"><i class="bx bx-fingerprint"></i></div>
-                          <h4 class="title"><a href="">{{ __('messages.lorem_ipsum') }}</a></h4>
-                          <p class="description">{{ __('messages.lorem_ipsum_description') }}</p>
-                      </div>
-
-                      <div class="icon-box">
-                          <div class="icon"><i class="bx bx-gift"></i></div>
-                          <h4 class="title"><a href="">{{ __('messages.nemo_enim') }}</a></h4>
-                          <p class="description">{{ __('messages.nemo_enim_description') }}</p>
-                      </div>
-
-                  </div>
-              </div>
-
-          </div>
-      </section>
-
-    </main><!-- End #main -->
 <br>
+
+    <!-- ======= Service Details Section ======= -->
+    <section class="features">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>{{ __('messages.services_title') }}</h2>
+
+            </div>
+
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-5">
+                    <img src="assets/img/features-1.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 pt-4">
+                    <h3>{{ __('messages.feature_1_title') }}</h3>
+                    <p class="fst-italic">
+                        {{ __('messages.feature_1_description') }}
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-check"></i> {{ __('messages.feature_1_point_1') }}</li>
+                        <li><i class="bi bi-check"></i> {{ __('messages.feature_1_point_2') }}</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-5 order-1 order-md-2">
+                    <img src="assets/img/features-2.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 pt-5 order-2 order-md-1">
+                    <h3>{{ __('messages.feature_heading') }}</h3>
+                    <p class="fst-italic">
+                        {{ __('messages.feature_subheading') }}
+                    </p>
+                    <p>
+                        {{ __('messages.feature_text') }}
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-5">
+                    <img src="assets/img/features-3.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 pt-5">
+                    <h3>{{ __('messages.feature_heading_2') }}</h3>
+                    <p>{{ __('messages.feature_text_2') }}</p>
+                    <ul>
+                        <li><i class="bi bi-check"></i> {{ __('messages.feature_list_1') }}</li>
+                        <li><i class="bi bi-check"></i> {{ __('messages.feature_list_2') }}</li>
+                        <li><i class="bi bi-check"></i> {{ __('messages.feature_list_3') }}</li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="row" data-aos="fade-up">
+                <div class="col-md-5 order-1 order-md-2">
+                    <img src="assets/img/features-4.svg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-7 pt-5 order-2 order-md-1">
+                    <h3>{{ __('messages.feature_heading_3') }}</h3>
+                    <p class="fst-italic">
+                        {{ __('messages.feature_subheading_3') }}
+                    </p>
+                    <p>
+                        {{ __('messages.feature_text_3') }}
+                    </p>
+                </div>
+            </div>
+
+
+        </div>
+      </section><!-- End Service Details Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section class="pricing section-bg" data-aos="fade-up">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>{{ __('messages.pricing') }}</h2>
+                <p>{{ __('messages.pricing_description') }}</p>
+            </div>
+
+            <div class="row no-gutters">
+
+                <div class="col-lg-4 box">
+                    <h3>{{ __('messages.free') }}</h3>
+                    <h4>$0<span>{{ __('messages.per_month') }}</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature1') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature2') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature3') }}</li>
+                        <li class="na"><i class="bx bx-x"></i> <span>{{ __('messages.feature4') }}</span>
+                        </li>
+                        <li class="na"><i class="bx bx-x"></i> <span>{{ __('messages.feature5') }}</span>
+                        </li>
+                    </ul>
+                    <a href="#" class="get-started-btn">{{ __('messages.get_started') }}</a>
+                </div>
+
+                <div class="col-lg-4 box featured">
+                    <h3>{{ __('messages.business') }}</h3>
+                    <h4>$29<span>{{ __('messages.per_month') }}</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature1') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature2') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature3') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature4') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature5') }}</li>
+                    </ul>
+                    <a href="#" class="get-started-btn">{{ __('messages.get_started') }}</a>
+                </div>
+
+                <div class="col-lg-4 box">
+                    <h3>{{ __('messages.developer') }}</h3>
+                    <h4>$49<span>{{ __('messages.per_month') }}</span></h4>
+                    <ul>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature1') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature2') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature3') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature4') }}</li>
+                        <li><i class="bx bx-check"></i> {{ __('messages.feature5') }}</li>
+                    </ul>
+                    <a href="#" class="get-started-btn">{{ __('messages.get_started') }}</a>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Pricing Section -->
+    <!-- End Pricing Section -->
+
+  </main><!-- End #main -->
+
 
 
     <!--========================== Footer ============================-->
