@@ -44,9 +44,9 @@
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="" href="{{ route('home') }}">{{ __('messages.home') }}</a></li>
-                    <li><a href="about.html">{{ __('messages.about_us') }}</a></li>
-                    <li><a href="services.html">{{ __('messages.services') }}</a></li>
-                    <li><a class="active" href="portfolio.html">{{ __('messages.portfolio') }}</a></li>
+                    <li><a href="{{ route('home') }}" >{{ __('messages.about_us') }}</a></li>
+                    <li><a href="{{ route('home') }}" >{{ __('messages.services') }}</a></li>
+                    <li><a class="active" href="{{ route('home') }}" >{{ __('messages.portfolio') }}</a></li>
                     <li><a href="team.html">{{ __('messages.team') }}</a></li>
                     <li class="dropdown"><a href="#"><span>{{ __('messages.language') }}</span> <i
                                 class="bi bi-chevron-down"></i></a>
@@ -57,7 +57,7 @@
                                     onclick="setDirection('rtl')">{{ __('messages.arabic') }}</a></li>
                         </ul>
                     </li>
-                    <li><a href="contact.html">{{ __('messages.contact_us') }}</a></li>
+                    <li><a href="{{ route('home') }}">{{ __('messages.contact_us') }}</a></li>
 
 
                 </ul>
