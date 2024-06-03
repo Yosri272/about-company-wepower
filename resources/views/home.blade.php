@@ -164,14 +164,16 @@
                     <div class="col-lg-6">
                         <div class="box wow fadeInLeft">
                             <div class="icon"><i class="fa fa-laptop"></i></div>
-                            <h4 class="title"><a href="{{ route('services') }}">{{ __('messages.service_1_title') }}</a></h4>
+                            <h4 class="title"><a
+                                    href="{{ route('services') }}">{{ __('messages.service_1_title') }}</a></h4>
                             <p class="description">{{ __('messages.service_1_description') }}</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="box wow fadeInRight">
                             <div class="icon"><i class="fa fa-cloud"></i></div>
-                            <h4 class="title"><a href="{{ route('services') }}">{{ __('messages.dolor_sitema_title') }}</a></h4>
+                            <h4 class="title"><a
+                                    href="{{ route('services') }}">{{ __('messages.dolor_sitema_title') }}</a></h4>
                             <p class="description">{{ __('messages.dolor_sitema_description') }}</p>
                         </div>
                     </div>
@@ -179,7 +181,8 @@
                     <div class="col-lg-6">
                         <div class="box wow fadeInLeft" data-wow-delay="0.2s">
                             <div class="icon"><i class="fa fa-database"></i></div>
-                            <h4 class="title"><a href="{{ route('services') }}">{{ __('messages.sed_ut_perspiciatis_title') }}</a>
+                            <h4 class="title"><a
+                                    href="{{ route('services') }}">{{ __('messages.sed_ut_perspiciatis_title') }}</a>
                             </h4>
                             <p class="description">{{ __('messages.sed_ut_perspiciatis_description') }}</p>
                         </div>
@@ -188,7 +191,8 @@
                     <div class="col-lg-6">
                         <div class="box wow fadeInRight" data-wow-delay="0.2s">
                             <div class="icon"><i class="fa fa-link"></i></div>
-                            <h4 class="title"><a href="{{ route('services') }}">{{ __('messages.magni_dolores_title') }}</a></h4>
+                            <h4 class="title"><a
+                                    href="{{ route('services') }}">{{ __('messages.magni_dolores_title') }}</a></h4>
                             <p class="description">{{ __('messages.magni_dolores_description') }}</p>
                         </div>
                     </div>
@@ -200,47 +204,10 @@
         </section>
         <!-- #services -->
 
-        <!--========================== Clients Section ============================-->
-        <section id="clients" class="wow fadeInUp">
-            <div class="container">
-                <div class="section-header">
-                    <h2>{{ __('messages.clients_title') }}</h2>
-                    <p>{{ __('messages.clients_description') }}</p>
-                </div>
-
-                <div class="owl-carousel clients-carousel">
-                    <div class="col-md-9">
-                        <img src="img/clients/client-1.png" alt="Client 1">
-                    </div>
-                    <div class="col-md-9">
-                        <img src="img/clients/client-2.png" alt="Client 2">
-                    </div>
-                    <div class="col-md-9">
-                        <img src="img/clients/client-3.png" alt="Client 3">
-                    </div>
-                    <div class="col-md-9">
-                        <img src="img/clients/client-4.png" alt="Client 4">
-                    </div>
-                    <div class="col-md-9">
-                        <img src="img/clients/client-5.png" alt="Client 5">
-                    </div>
-                    <div class="item">
-                        <img src="img/clients/client-6.png" alt="Client 6">
-                    </div>
-                    <div class="item">
-                        <img src="img/clients/client-7.png" alt="Client 7">
-                    </div>
-                    <div class="item">
-                        <img src="img/clients/client-8.png" alt="Client 8">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- #clients -->
 
         <!--========================== Our Portfolio Section ============================-->
         <!-- ======= Portfolio Section ======= -->
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <div class="container">
                 <div class="section-header">
                     <h2>{{ __('messages.portfolio_title') }}</h2>
@@ -268,7 +235,7 @@
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -283,7 +250,7 @@
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -298,7 +265,7 @@
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -313,7 +280,7 @@
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -328,7 +295,7 @@
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -343,7 +310,7 @@
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -358,7 +325,7 @@
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -373,7 +340,7 @@
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -387,7 +354,7 @@
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}"  title="Portfolio Details"><i
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -402,13 +369,13 @@
         <!-- #portfolio -->
 
         <!--========================== Testimonials Section ============================-->
-        <section id="testimonials" class="wow fadeInUp">
+        {{-- <section id="testimonials" class="wow fadeInUp">
             <div class="container">
                 <div class="section-header">
                     <h2>{{ __('messages.testimonials_title') }}</h2>
                     <p>{{ __('messages.testimonials_description') }}</p>
                 </div>
-                {{-- <div class="owl-carousel testimonials-carousel">
+                <div class="owl-carousel testimonials-carousel">
                     <div class="testimonial-item">
                         <p>
                             <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
@@ -432,11 +399,127 @@
                     </div>
 
                     <!-- Repeat the structure for other testimonials -->
-                </div> --}}
+                </div>
             </div>
-        </section>
+        </section> --}}
         <!-- #testimonials -->
 
+        <!--========================== Clients Section ============================-->
+        <section id="clients">
+            <div class="container">
+                <div class="section-header">
+
+                    <div class="section-header">
+                        <h2>{{ __('messages.clients_title') }}</h2>
+                        <p>{{ __('messages.clients_description') }}</p>
+                    </div>
+                </div>
+
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+        <section class="facts section-bg" data-aos="fade-up">
+            <div class="container">
+
+                <div class="row counters bg-light-gray"> <!-- Add bg-light-gray class here -->
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                        <p>{{ __('messages.clients') }}</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                        <p>{{ __('messages.projects') }}</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                        <p>{{ __('messages.hours_of_support') }}</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1"
+                            class="purecounter"></span>
+                        <p>{{ __('messages.hard_workers') }}</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- End Facts Section -->
+        <br><br>
+        <!-- ======= Clients Section ======= -->
+        <section class="clients" data-aos="fade-up">
+            <div class="container" data-aos="fade-up" data-aos-delay="100" data-no-editable="true">
+
+                <div class="swiper clients-swiper">
+                    <script type="application/json" class="swiper-config">
+                {
+                    "loop": true,
+                    "speed": 600,
+                    "autoplay": {
+                        "delay": 5000
+                    },
+                    "slidesPerView": "auto",
+                    "pagination": {
+                        "el": ".swiper-pagination",
+                        "type": "bullets",
+                        "clickable": true
+                    },
+                    "breakpoints": {
+                        "320": {
+                            "slidesPerView": 2,
+                            "spaceBetween": 40
+                        },
+                        "480": {
+                            "slidesPerView": 3,
+                            "spaceBetween": 60
+                        },
+                        "640": {
+                            "slidesPerView": 4,
+                            "spaceBetween": 80
+                        },
+                        "992": {
+                            "slidesPerView": 6,
+                            "spaceBetween": 120
+                        }
+                    }
+                }
+            </script>
+                    <div class="swiper-wrapper align-items-center">
+                        <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid"
+                                alt=""></div>
+                        <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid"
+                                alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Clients Section -->
+
+        <!-- #clients -->
 
         <!--========================== Our Team Section ============================-->
         <section id="team" class="wow fadeInUp">
@@ -518,65 +601,7 @@
         </section>
         <!-- #team -->
 
-        <!-- ======= Pricing Section ======= -->
-        <!-- ======= Pricing Section ======= -->
-        <section class="pricing section-bg" data-aos="fade-up">
-            <div class="container">
 
-                <div class="section-header">
-                    <h2>{{ __('messages.pricing') }}</h2>
-                    <p>{{ __('messages.pricing_description') }}</p>
-                </div>
-
-                <div class="row no-gutters">
-
-                    <div class="col-lg-4 box">
-                        <h3>{{ __('messages.free') }}</h3>
-                        <h4>$0<span>{{ __('messages.per_month') }}</span></h4>
-                        <ul>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature1') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature2') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature3') }}</li>
-                            <li class="na"><i class="bx bx-x"></i> <span>{{ __('messages.feature4') }}</span>
-                            </li>
-                            <li class="na"><i class="bx bx-x"></i> <span>{{ __('messages.feature5') }}</span>
-                            </li>
-                        </ul>
-                        <a href="#" class="get-started-btn">{{ __('messages.get_started') }}</a>
-                    </div>
-
-                    <div class="col-lg-4 box featured">
-                        <h3>{{ __('messages.business') }}</h3>
-                        <h4>$29<span>{{ __('messages.per_month') }}</span></h4>
-                        <ul>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature1') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature2') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature3') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature4') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature5') }}</li>
-                        </ul>
-                        <a href="#" class="get-started-btn">{{ __('messages.get_started') }}</a>
-                    </div>
-
-                    <div class="col-lg-4 box">
-                        <h3>{{ __('messages.developer') }}</h3>
-                        <h4>$49<span>{{ __('messages.per_month') }}</span></h4>
-                        <ul>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature1') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature2') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature3') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature4') }}</li>
-                            <li><i class="bx bx-check"></i> {{ __('messages.feature5') }}</li>
-                        </ul>
-                        <a href="#" class="get-started-btn">{{ __('messages.get_started') }}</a>
-                    </div>
-
-                </div>
-
-            </div>
-        </section><!-- End Pricing Section -->
-        <!-- End Pricing Section -->
-        <!-- End Pricing Section -->
         <!--========================== Contact Section ============================-->
         <section id="contact" class="wow fadeInUp">
             <div class="container">

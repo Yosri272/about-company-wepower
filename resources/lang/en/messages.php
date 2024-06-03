@@ -220,4 +220,9 @@ return [
         'our_services' => 'Our Services',
         'home' => 'Home',
 
+        'clients' => 'Clients',
+        'projects' => 'Projects',
+        'hours_of_support' => 'Hours Of Support',
+        'hard_workers' => 'Hard Workers',
+
     ];

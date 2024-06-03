@@ -209,4 +209,8 @@ return [
 
     'our_services' => 'خدماتنا',
     'home' => 'الرئيسية',
+    'clients' => 'العملاء',
+    'projects' => 'المشاريع',
+    'hours_of_support' => 'ساعات الدعم',
+    'hard_workers' => 'العمال المجتهدون',
 ];
