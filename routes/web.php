@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\PortfoliosController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -31,7 +31,6 @@ Route::get('language/{locale}', function ($locale) {
 Route::get('/portfolio-details', function () {
     return view('portfolio-details');
 })->name('portfolio');
-
 Route::get('home', function () {
     return view('home');
 })->name('home');
@@ -39,3 +38,6 @@ Route::get('home', function () {
 Route::get('services', function () {
     return view('services');
 })->name('services');
+
+Route::get('/portfolio/{id}', [PortfoliosController::class, 'show'])->name('portfolio.show');
+

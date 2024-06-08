@@ -309,7 +309,15 @@ h6 {
     font-family: 'Cairo', sans-serif;
     /* Apply Cairo font */
     color: #50d8af;
-    text-decoration: underline;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    /* Add text shadow */
+    background: linear-gradient(90deg, #50d8af, #50d8af, #50d8af);
+    /* Add gradient background */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Use gradient as text color */
+    animation: glow 1.5s ease-in-out infinite alternate;
+    /* Add glow animation */
 }
 
 #intro .intro-content .btn-get-started,

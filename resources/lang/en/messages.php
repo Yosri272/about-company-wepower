@@ -224,5 +224,6 @@ return [
         'projects' => 'Projects',
         'hours_of_support' => 'Hours Of Support',
         'hard_workers' => 'Hard Workers',
+        'Cancel'=>"Cancel",
 
     ];

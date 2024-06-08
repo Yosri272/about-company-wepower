@@ -229,59 +229,14 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
                         <div class="portfolio-item">
-                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h3>{{ __('messages.App') }}</h3>
                                 <div>
-                                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
-                                            class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                        <a href="{{ route('portfolio.show', ['id' => 'app']) }}" title="Portfolio Details"><i class="bx bx-link"></i></a>
 
-                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h3>{{ __('messages.Web') }}</h3>
-                                <div>
-                                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
-                                            class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h3>{{ __('messages.App') }}</h3>
-                                <div>
-                                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
-                                            class="bx bx-link"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
-                        <div class="portfolio-item">
-                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                            <div class="portfolio-info">
-                                <h3>{{ __('messages.Card') }}</h3>
-                                <div>
-                                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
-                                            class="bx bx-link"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -294,7 +249,7 @@
                                 <h3>{{ __('messages.Web') }}</h3>
                                 <div>
                                     <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                                        class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                                     <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
@@ -304,13 +259,13 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
                         <div class="portfolio-item">
-                            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h3>{{ __('messages.App') }}</h3>
                                 <div>
-                                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
-                                        class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
+                                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                                    <a  href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -319,11 +274,84 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
                         <div class="portfolio-item">
-                            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h3>{{ __('messages.Card') }}</h3>
                                 <div>
-                                    <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                                    <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                                    <a  href="{{ route('portfolio') }}" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h3>{{ __('messages.Web') }}</h3>
+                                <div>
+                                    <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                                    <a  href="{{ route('portfolio') }}" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-app">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio/portfolio-11.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h3>{{ __('messages.App') }}</h3>
+                                <div>
+                                    <a href="assets/img/portfolio/portfolio-11.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                                    <a  href="{{ route('portfolio') }}" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h3>{{ __('messages.Card') }}</h3>
+                                <div>
+                                    <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h3>{{ __('messages.Card') }}</h3>
+                                <div>
+                                    <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                                        class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
+                                            class="bx bx-link"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-wrap filter-card">
+                        <div class="portfolio-item">
+                            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h3>{{ __('messages.Card') }}</h3>
+                                <div>
+                                    <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
                                     <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
@@ -334,13 +362,13 @@
 
                     <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
                         <div class="portfolio-item">
-                            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/portfolio/portfolio-10.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h3>{{ __('messages.Web') }}</h3>
                                 <div>
-                                    <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                                    <a href="assets/img/portfolio/portfolio-10.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
-                                    <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
+                                    <a  href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
                                 </div>
                             </div>
@@ -348,11 +376,11 @@
                     </div>
                     <div class="col-lg-4 col-md-6 portfolio-wrap filter-web">
                         <div class="portfolio-item">
-                            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+                            <img src="assets/img/portfolio/portfolio-11.jpg" class="img-fluid" alt="">
                             <div class="portfolio-info">
                                 <h3>{{ __('messages.Web') }}</h3>
                                 <div>
-                                    <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                                    <a href="assets/img/portfolio/portfolio-11.jpg" data-gallery="portfolioGallery"
                                         class="portfolio-lightbox" title="Web 1"><i class="bx bx-plus"></i></a>
                                     <a href="{{ route('portfolio') }}" title="Portfolio Details"><i
                                             class="bx bx-link"></i></a>
@@ -360,6 +388,7 @@
                             </div>
                         </div>
                     </div>
+
 
                 </div>
 

@@ -5,9 +5,9 @@ return [
     'language' => 'اللغة:',
     'english' => 'الإنجليزية',
     'arabic' => 'العربية',
-    'happen'=>'! حدث',
-    'your'=>'أفكارك',
-    'Making'=>' صنع  ',
+    'happen'=>'ابتكارات  !',
+    'your'=>'الأفكار إلى',
+    'Making'=>' تحويل ',
 
     'home' => 'الرئيسية',
     'about_us' => 'من نحن',
@@ -213,4 +213,6 @@ return [
     'projects' => 'المشاريع',
     'hours_of_support' => 'ساعات الدعم',
     'hard_workers' => 'العمال المجتهدون',
+
+    'Cancel'=>'الغاء',
 ];
